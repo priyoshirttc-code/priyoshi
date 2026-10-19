@@ -1,0 +1,14 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1c1712"/><stop offset="1" stop-color="#0a0908"/></linearGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="62%"><stop offset="0%" stop-color="#c9a96a" stop-opacity="0.28"/><stop offset="100%" stop-color="#c9a96a" stop-opacity="0"/></radialGradient>
+    <linearGradient id="fig" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2b241b"/><stop offset="100%" stop-color="#16120d"/></linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="url(#glow)"/>
+  <path d="M-50 560 C 200 440, 600 440, 850 560" fill="none" stroke="#c9a96a" stroke-opacity="0.22" stroke-width="1.5"/>
+  <path d="M-50 620 C 220 500, 580 500, 850 620" fill="none" stroke="#c9a96a" stroke-opacity="0.13" stroke-width="1.5"/>
+  <g fill="url(#fig)"><circle cx="400" cy="300" r="76"/><circle cx="400" cy="206" r="26"/><path d="M400 376C380 376 372 384 372 394L372 410C344 416 312 432 288 452C244 486 216 560 200 660C184 762 176 860 184 960L616 960C624 860 616 762 600 660C584 560 556 486 512 452C488 432 456 416 428 410L428 394C428 384 420 376 400 376Z"/></g>
+  <g fill="#c9a96a"><path d="M170 250 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3 Z" opacity="0.85"/><path d="M640 210 l2.4 6.4 6.4 2.4 -6.4 2.4 -2.4 6.4 -2.4 -6.4 -6.4 -2.4 6.4 -2.4 Z" opacity="0.7"/><path d="M600 300 l2 5.4 5.4 2 -5.4 2 -2 5.4 -2 -5.4 -5.4 -2 5.4 -2 Z" opacity="0.6"/></g>
+  <text x="764" y="60" text-anchor="end" font-family="Georgia, serif" font-size="30" fill="#c9a96a" opacity="0.35">LTP.</text>
+</svg>
